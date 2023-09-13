@@ -6,9 +6,9 @@ start_s=`date +%S`
 echo "Script start: $start_m:$start_s"
 
 now=$(date +"%m_%d_%Y-%H_%M")
-plex_library_dir="/mnt/disks/Plex_SSD_194051800713/plex/Library/"
-backup_dir="/mnt/user/backup_share/plex"
-num_backups_to_keep=3
+plex_library_dir="/mnt/disks/S364NX0HC08144/appdata/plex/Library/"
+backup_dir="/mnt/user/plexbackup"
+num_backups_to_keep=2
 
 # Stop the container
 docker stop plex
